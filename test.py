@@ -10,6 +10,8 @@ from simtk.openmm import app
 import simtk.openmm as mm
 from simtk import unit
 import sys
+import mbpol
+
 
 forcefield_type = sys.argv[1]
 if sys.argv[2] == 'True':
